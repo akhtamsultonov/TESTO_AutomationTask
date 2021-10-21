@@ -13,9 +13,11 @@ public class WaitToAppearStepDefs {
 
     @Then("the user should be able get the {string} text successfully")
     public void the_user_should_be_able_get_the_text_successfully(String expectedText) {
+
         new WebDriverWait(Driver.get(),5).until(ExpectedConditions.elementToBeClickable(waitToAppearPage.appearingText));
 
         String actualText = waitToAppearPage.appearingText.getText();
+
         Assert.assertEquals("Verify that user can get the expected text",expectedText,actualText);
 
     }
