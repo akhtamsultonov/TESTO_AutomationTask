@@ -19,7 +19,7 @@ public abstract class BasePage {
     public WebElement pageSubTitle;
 
     /**
-     * @return page name, for example: Dashboard
+     * @return page name, for example:
      */
     public String getPageSubTitle() {
         //ant time we are verifying page name, or page subtitle, loader mask appears
