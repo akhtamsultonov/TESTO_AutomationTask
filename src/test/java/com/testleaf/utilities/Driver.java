@@ -1,4 +1,4 @@
-package com.leafground.utilities;
+package com.testleaf.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -22,7 +22,7 @@ public class Driver {
         // Test
         if (driver == null) {
             // this line will tell which browser should open based on the value from properties file
-            String browser = com.leafground.utilities.ConfigurationReader.get("browser");
+            String browser = com.testleaf.utilities.ConfigurationReader.get("browser");
             switch (browser) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();

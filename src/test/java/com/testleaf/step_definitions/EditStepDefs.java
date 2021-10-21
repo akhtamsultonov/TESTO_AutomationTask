@@ -1,10 +1,10 @@
-package com.leafground.step_definitions;
+package com.testleaf.step_definitions;
 
 
-import com.leafground.pages.EditPage;
-import com.leafground.utilities.BrowserUtils;
-import com.leafground.utilities.ConfigurationReader;
-import com.leafground.utilities.Driver;
+import com.testleaf.pages.EditPage;
+import com.testleaf.utilities.BrowserUtils;
+import com.testleaf.utilities.ConfigurationReader;
+import com.testleaf.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

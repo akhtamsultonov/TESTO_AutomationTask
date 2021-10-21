@@ -1,7 +1,7 @@
-package com.leafground.pages;
+package com.testleaf.pages;
 
-import com.leafground.utilities.BrowserUtils;
-import com.leafground.utilities.Driver;
+import com.testleaf.utilities.BrowserUtils;
+import com.testleaf.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -19,7 +19,7 @@ public abstract class BasePage {
     public WebElement pageSubTitle;
 
     /**
-     * @return page name, for example:
+     * @return page name, for example: Work with Edit Fields
      */
     public String getPageSubTitle() {
         //ant time we are verifying page name, or page subtitle, loader mask appears

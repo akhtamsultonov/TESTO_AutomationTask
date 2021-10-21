@@ -1,7 +1,7 @@
-package com.leafground.step_definitions;
+package com.testleaf.step_definitions;
 
-import com.leafground.pages.WaitToDisappearPage;
-import com.leafground.utilities.Driver;
+import com.testleaf.pages.WaitToDisappearPage;
+import com.testleaf.utilities.Driver;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
