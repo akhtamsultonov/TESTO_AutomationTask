@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public abstract class BasePage {
@@ -23,7 +25,7 @@ public abstract class BasePage {
      */
     public String getPageSubTitle() {
         //and time we are verifying page name, or page subtitle
-        BrowserUtils.waitForPageToLoad(5);
+        new WebDriverWait(Driver.get(),10).until(ExpectedConditions.elementToBeClickable(pageSubTitle));
         return pageSubTitle.getText();
     }
 
