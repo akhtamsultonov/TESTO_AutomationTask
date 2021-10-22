@@ -15,7 +15,7 @@ http://www.leafground.com/
 
 ***Framework Architecture***
 
-    Grover_IMDbAutomationTask
+    TESTO_TestLeafAutomationTask
     |
     |_idea
     |_src/test/java
