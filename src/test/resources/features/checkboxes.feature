@@ -12,5 +12,5 @@ Feature: Checkboxes
     Then the user should be able to deselect the "<deselect>"
     Then the user should be able to select all
     Examples:
-      | language | checked   | deselect      |
+      | language | checked  | deselect      |
       | Java     | Selenium | I am Selected |
