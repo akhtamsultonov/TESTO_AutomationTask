@@ -13,10 +13,9 @@ public class DragAndDropStepDefs {
 
     @Then("the user should be able to drag and drop successfully")
     public void the_user_should_be_able_to_drag_and_drop_successfully() {
-        BrowserUtils.waitFor(2);
+
         Actions actions = new Actions(Driver.get());
         actions.dragAndDrop(dragAndDropPage.source,dragAndDropPage.target).perform();
-        BrowserUtils.waitFor(2);
         Assert.assertEquals( "Verify that user draged and dropped successfully","Dropped!",dragAndDropPage.Dropped.getText());
     }
 }

@@ -1,4 +1,4 @@
-
+@testo
 Feature: Upload file
   Background:
     Given the user is on homepage

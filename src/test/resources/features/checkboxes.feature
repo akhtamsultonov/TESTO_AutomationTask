@@ -1,3 +1,4 @@
+@testo
 Feature: Checkboxes
 
   Background:

@@ -1,4 +1,4 @@
-
+@testo
 Feature: Wait for Alert
   Background:
     Given the user is on homepage

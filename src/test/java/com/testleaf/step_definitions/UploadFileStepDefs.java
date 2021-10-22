@@ -13,6 +13,6 @@ public class UploadFileStepDefs {
     public void the_user_should_be_able_to_upload_file_successfully() {
         uploadFilePage.sendFile();
         Assert.assertTrue(uploadFilePage.uploadFile.isDisplayed());
-        BrowserUtils.waitFor(2);
+
     }
 }

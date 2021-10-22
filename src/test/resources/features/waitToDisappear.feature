@@ -1,3 +1,4 @@
+@testo
 Feature: Wait to Disappear
 
   Background:
