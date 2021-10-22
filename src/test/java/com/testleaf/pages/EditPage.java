@@ -14,10 +14,6 @@ public class EditPage extends BasePage{
     @FindBy(xpath = "//input[@value='TestLeaf']")
     public WebElement text;
 
-   /* public WebElement getDefaultText(){
-        return text;
-    }*/
-
     @FindBy(xpath = "//input[@value='Clear me!!']")
     public WebElement clear;
 
