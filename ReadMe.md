@@ -15,7 +15,7 @@ http://www.leafground.com/
 
 ***Framework Architecture***
 
-    TESTO_TestLeafAutomationTask
+    **TESTO_AutomationTask**
     |
     |_idea
     |_src/test/java
