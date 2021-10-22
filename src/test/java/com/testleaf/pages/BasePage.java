@@ -22,7 +22,7 @@ public abstract class BasePage {
      * @return page name, for example: Work with Edit Fields
      */
     public String getPageSubTitle() {
-        //ant time we are verifying page name, or page subtitle, loader mask appears
+        //and time we are verifying page name, or page subtitle
         BrowserUtils.waitForPageToLoad(5);
         return pageSubTitle.getText();
     }
